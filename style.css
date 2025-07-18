@@ -50,7 +50,6 @@ a:hover {
     animation: typing-text 3s steps(83),blink 0.5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
-    animation-delay: 1s;
 }
 
 @keyframes typing-text {
