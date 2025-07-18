@@ -1,0 +1,167 @@
+*{
+    margin: 0%;
+    font-family: sans-serif;
+    color: white;
+}
+
+body{
+    background: radial-gradient(circle,rgb(116, 107, 107),black);
+}
+
+.navigation{
+    background:radial-gradient(circle,blueviolet,rgb(190, 152, 225)) ;
+    padding: 20px;
+    text-align: center;
+    font-size: 22px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    
+}
+
+a {
+    padding: 10px;
+    text-decoration: none;
+    transition: color 0.3s ease, background 0.3s ease;
+}
+
+a:hover {
+    color: black;
+    background: linear-gradient(90deg, blueviolet, rgb(190, 152, 225));
+    border-radius: 25px;
+}
+
+.sec1{
+    margin-left: 100px;
+    margin-top:10%;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    background-color: rgb(45, 44, 44);
+    border-radius: 10px;
+    padding: 50px;
+}
+
+section{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+section h1{
+    font-size: 40px;
+    color: blueviolet;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+h1+p{
+    margin-left: 30px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+p+p{
+    margin-left: 30px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.list{
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.sec2{
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    background-color: rgb(45, 44, 44);
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.sec3{
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    background-color: rgb(45, 44, 44);
+    border-radius: 10px;
+    padding: 50px;
+
+}
+
+.grade{
+    display: flex;
+    justify-content: center;
+}
+
+.grade10{
+    padding: 10px;
+    margin-right: 20px;
+    margin-top: 30px;
+    background-color:  rgb(136, 163, 173);
+    border-radius: 20px;
+    padding: 20px;
+    margin-right: 30px;
+    font-size: 20px;
+    animation: fadeInUp 1s ease forwards;
+    animation-delay: 0.5s;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.grade10:hover{
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+#para{
+    color: black;
+}
+
+.grade12{
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(136, 163, 173);
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.grade12:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+.sec4{
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    background-color: rgb(45, 44, 44);
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.contact{
+    margin-left: 15px;
+    font-size: 25px;
+}
+
+#seperate{
+    font-size: 25px;
+}
+
+.footer{
+    background:radial-gradient(circle,blueviolet,rgb(190, 152, 225)) ;
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+}
